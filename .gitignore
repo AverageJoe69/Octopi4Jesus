@@ -1,0 +1,26 @@
+# Machine-specific Python environments and caches
+venvs/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Large raw camera capture data (transfer separately when required)
+StereoMaskFusion/data/Cam*_Frames/
+StereoMaskFusion/data/Cam*_L_Frames/
+StereoMaskFusion/data/EmptyRefs/
+StereoMaskFusion/data/edges/
+StereoMaskFusion/data/masks/
+
+# Downloaded model weights and local caches
+*.pth
+*.pt
+*.onnx
+*.engine
+.cache/
+
+# Editor/OS residue and local backups
+.DS_Store
+Thumbs.db
+*.sync_backup_*
+*.blend1

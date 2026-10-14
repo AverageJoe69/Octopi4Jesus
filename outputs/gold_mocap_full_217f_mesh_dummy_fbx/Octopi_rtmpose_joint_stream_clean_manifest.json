@@ -1,0 +1,89 @@
+{
+  "type": "octopi.rtmpose3d.manifest",
+  "version": 1,
+  "source": "C:\\OCTOPI_Pipeline\\outputs\\gold_mocap_full_217f_mesh_dummy_fbx\\skeleton_animation.json",
+  "fps": 60.0,
+  "frame_count": 217,
+  "space": "in_place",
+  "scale": 1.0,
+  "units": "metres",
+  "joints": [
+    "pelvis",
+    "neck",
+    "nose",
+    "left_shoulder",
+    "left_elbow",
+    "left_wrist",
+    "right_shoulder",
+    "right_elbow",
+    "right_wrist",
+    "left_hip",
+    "left_knee",
+    "left_ankle",
+    "right_hip",
+    "right_knee",
+    "right_ankle"
+  ],
+  "edges": [
+    [
+      "pelvis",
+      "neck"
+    ],
+    [
+      "neck",
+      "nose"
+    ],
+    [
+      "neck",
+      "left_shoulder"
+    ],
+    [
+      "left_shoulder",
+      "left_elbow"
+    ],
+    [
+      "left_elbow",
+      "left_wrist"
+    ],
+    [
+      "neck",
+      "right_shoulder"
+    ],
+    [
+      "right_shoulder",
+      "right_elbow"
+    ],
+    [
+      "right_elbow",
+      "right_wrist"
+    ],
+    [
+      "pelvis",
+      "left_hip"
+    ],
+    [
+      "left_hip",
+      "left_knee"
+    ],
+    [
+      "left_knee",
+      "left_ankle"
+    ],
+    [
+      "pelvis",
+      "right_hip"
+    ],
+    [
+      "right_hip",
+      "right_knee"
+    ],
+    [
+      "right_knee",
+      "right_ankle"
+    ]
+  ],
+  "udp_default": {
+    "host": "127.0.0.1",
+    "port": 50505
+  }
+}

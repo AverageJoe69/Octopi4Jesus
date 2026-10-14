@@ -1,0 +1,98 @@
+{
+  "image_width": 1920,
+  "image_height": 1080,
+  "intrinsics": {
+    "fx": 782.222,
+    "fy": 792.0,
+    "cx": 960.0,
+    "cy": 540.0,
+    "focal_length_mm": 2.2,
+    "sensor_width_mm": 5.4,
+    "sensor_height_mm": 3.0,
+    "hfov_degrees": 101.653,
+    "vfov_degrees": 68.574
+  },
+  "baseline_m": 0.12,
+  "cameras": [
+    {
+      "name": "cam1",
+      "location_unreal_cm": [0.0, 426.0, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": -90.0, "roll": 0.0}
+    },
+    {
+      "name": "cam1_L",
+      "location_unreal_cm": [-12.0, 426.0, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": -90.0, "roll": 0.0}
+    },
+    {
+      "name": "cam2",
+      "location_unreal_cm": [-301.227, 301.227, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": -45.0, "roll": 0.0}
+    },
+    {
+      "name": "cam2_L",
+      "location_unreal_cm": [-309.713, 292.742, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": -45.0, "roll": 0.0}
+    },
+    {
+      "name": "cam3",
+      "location_unreal_cm": [-426.0, 0.0, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": 0.0, "roll": 0.0}
+    },
+    {
+      "name": "cam3_L",
+      "location_unreal_cm": [-426.0, -12.0, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": 0.0, "roll": 0.0}
+    },
+    {
+      "name": "cam4",
+      "location_unreal_cm": [-301.227, -301.227, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": 45.0, "roll": 0.0}
+    },
+    {
+      "name": "cam4_L",
+      "location_unreal_cm": [-292.742, -309.713, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": 45.0, "roll": 0.0}
+    },
+    {
+      "name": "cam5",
+      "location_unreal_cm": [0.0, -426.0, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": 90.0, "roll": 0.0}
+    },
+    {
+      "name": "cam5_L",
+      "location_unreal_cm": [12.0, -426.0, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": 90.0, "roll": 0.0}
+    },
+    {
+      "name": "cam6",
+      "location_unreal_cm": [301.227, -301.227, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": 135.0, "roll": 0.0}
+    },
+    {
+      "name": "cam6_L",
+      "location_unreal_cm": [309.713, -292.742, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": 135.0, "roll": 0.0}
+    },
+    {
+      "name": "cam7",
+      "location_unreal_cm": [426.0, 0.0, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": -180.0, "roll": 0.0}
+    },
+    {
+      "name": "cam7_L",
+      "location_unreal_cm": [426.0, 12.0, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": -180.0, "roll": 0.0}
+    },
+    {
+      "name": "cam8",
+      "location_unreal_cm": [301.227, 301.227, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": -135.0, "roll": 0.0}
+    },
+    {
+      "name": "cam8_L",
+      "location_unreal_cm": [292.742, 309.713, 193.0],
+      "rotation_unreal_degrees": {"pitch": -20.0, "yaw": -135.0, "roll": 0.0}
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Octopi_RTMPose_ControlRig_Mapping",
+  "units": "metres_in_stream_to_centimetres_in_unreal",
+  "stream": {
+    "udp_host": "127.0.0.1",
+    "udp_port": 50505,
+    "packet_type": "octopi.rtmpose3d.frame",
+    "space": "in_place"
+  },
+  "coordinate_conversion": {
+    "source": "x=right, y=forward, z=up",
+    "unreal": "x=forward, y=right, z=up",
+    "formula": "unreal_cm = (source_y, source_x, source_z) * 100"
+  },
+  "joints": [
+    "pelvis",
+    "neck",
+    "nose",
+    "left_shoulder",
+    "left_elbow",
+    "left_wrist",
+    "right_shoulder",
+    "right_elbow",
+    "right_wrist",
+    "left_hip",
+    "left_knee",
+    "left_ankle",
+    "right_hip",
+    "right_knee",
+    "right_ankle"
+  ],
+  "look_at_bones": [
+    {
+      "bone": "pelvis",
+      "from": "pelvis",
+      "to": "neck",
+      "note": "Root/body aim. Stabilise with shoulder/hip plane before production."
+    },
+    {
+      "bone": "spine_03",
+      "from": "pelvis",
+      "to": "neck"
+    },
+    {
+      "bone": "neck_01",
+      "from": "neck",
+      "to": "nose"
+    },
+    {
+      "bone": "head",
+      "from": "neck",
+      "to": "nose"
+    },
+    {
+      "bone": "upperarm_l",
+      "from": "left_shoulder",
+      "to": "left_elbow"
+    },
+    {
+      "bone": "lowerarm_l",
+      "from": "left_elbow",
+      "to": "left_wrist"
+    },
+    {
+      "bone": "upperarm_r",
+      "from": "right_shoulder",
+      "to": "right_elbow"
+    },
+    {
+      "bone": "lowerarm_r",
+      "from": "right_elbow",
+      "to": "right_wrist"
+    },
+    {
+      "bone": "thigh_l",
+      "from": "left_hip",
+      "to": "left_knee"
+    },
+    {
+      "bone": "calf_l",
+      "from": "left_knee",
+      "to": "left_ankle"
+    },
+    {
+      "bone": "thigh_r",
+      "from": "right_hip",
+      "to": "right_knee"
+    },
+    {
+      "bone": "calf_r",
+      "from": "right_knee",
+      "to": "right_ankle"
+    }
+  ],
+  "controls_to_create": [
+    "octopi_pelvis",
+    "octopi_neck",
+    "octopi_nose",
+    "octopi_left_shoulder",
+    "octopi_left_elbow",
+    "octopi_left_wrist",
+    "octopi_right_shoulder",
+    "octopi_right_elbow",
+    "octopi_right_wrist",
+    "octopi_left_hip",
+    "octopi_left_knee",
+    "octopi_left_ankle",
+    "octopi_right_hip",
+    "octopi_right_knee",
+    "octopi_right_ankle"
+  ]
+}
